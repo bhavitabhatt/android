@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hello_android.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/udacity"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:textSize="20sp"
+    android:id="@+id/udacitytext"
+    android:layout_below="@+id/udacity"
+    android:text="Udacity"
+    android:background="#2E86C1  "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:paddingTop="10dp"
+        android:id="@+id/add"
+        android:textSize="20sp"
+        android:layout_below="@+id/udacitytext"
+        android:text="2465 Latham St"
+        android:paddingLeft="20dp"
+        android:background="#3498DB  "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/add"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/city"
+        android:text="Mountain View, CA 94043"
+        android:background="#5DADE2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="52dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/city"
+        android:id="@+id/contact"
+        android:text="650-555-5555"
+        android:background="#85C1E9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/contact"
+        android:text="www.udcity.com"
+        android:background="#AED6F1  "/>
+</RelativeLayout>
